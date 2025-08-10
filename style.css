@@ -1,0 +1,73 @@
+/* === Import Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito:wght@400;700&display=swap');
+
+/* === Tailwind Directives === */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Custom Theme via Tailwind Layer === */
+@layer base {
+  html {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  body {
+    background-color: #fefcf9;
+    color: #3b2d23;
+  }
+}
+
+/* === Custom Font Classes === */
+@layer utilities {
+  .font-marcellus {
+    font-family: 'Marcellus', serif;
+  }
+}
+
+/* === Custom Colors === */
+@layer utilities {
+  .bg-cream {
+    background-color: #fefcf9;
+  }
+
+  .text-darkBrown {
+    color: #3b2d23;
+  }
+
+  .text-softBrown {
+    color: #7b6b5c;
+  }
+
+  .bg-buttonBg {
+    background-color: #f4ece2;
+  }
+
+  .border-buttonBorder {
+    border-color: #3b2d23;
+  }
+
+  .text-buttonBorder {
+    color: #4b3a2f;
+  }
+}
+
+/* === Custom Animation === */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+scale-up-hor-center {
+	-webkit-animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+

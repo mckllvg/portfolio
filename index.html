@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mickasa</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="logo1.png" type="image/png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- External Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+
+</style>
+</head>
+
+
+<body class="bg-cream text-darkBrown font-nunito">
+  
+
+
+  <!-- Top Navigation Bar -->
+  <div class="sticky top-0 z-50 w-full px-10 flex justify-between items-center py-4 bg-transparent">
+    <div>
+      <img src="logo1.png" alt="Logo" class="w-10 h-10" />
+    </div>
+    <nav>
+      <ul class="flex space-x-6 px-4 text-darkBrown font-semibold">
+        <li><a href="#home" class="hover:underline">home</a></li>
+        <li><a href="#technologies" class="hover:underline">tech</a></li>
+        <li><a href="#projects" class="hover:underline">projects</a></li>
+        <li><a href="#contact" class="hover:underline">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Hero Section -->
+  <main id="home" class="min-h-screen flex flex-col justify-center items-center px-4 text-center">
+    <div class="mt-24 mb-24">
+      <h1 class="text-6xl md:text-8xl font-marcellus mb-4">
+         welcome to 
+        <span class="typed-text text-softBrown font-normal"></span>
+        <span class="cursor ml-1 w-[2px] h-[1em] bg-black inline-block animate-blink align-baseline"></span>
+      </h1>
+
+      <p class="text-lg md:text-1xl text-softBrown max-w-xl mx-auto mb-5">
+        An aspiring full-stack developer and data analyst. Currently a third-year Computer Science student at De La Salle University – Dasmariñas.
+      </p>
+
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="Resume.pdf" class="bg-buttonBg text-darkBrown px-6 py-2 rounded-xl shadow-md hover:shadow-lg transition-all border border-buttonBorder">
+          resume
+        </a>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Technologies Section -->
+   <!-- Technologies Section -->
+  <section id="technologies" class="py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h1 class="text-4xl md:text-6xl font-marcellus mb-12 text-darkBrown">technologies</h1>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
+       
+        <!-- Skill Cards -->
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="python.png" alt="Python" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">Python</h3>
+          <p class="text-sm text-gray-500">Language</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="java.png" alt="Java" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">Java</h3>
+          <p class="text-sm text-gray-500">Language</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="html.png" alt="HTML" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">HTML</h3>
+          <p class="text-sm text-gray-500">Markup</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="css.png" alt="CSS" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">CSS</h3>
+          <p class="text-sm text-gray-500">Stylesheet</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="javascript.png" alt="JavaScript" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">JavaScript</h3>
+          <p class="text-sm text-gray-500">Language</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="postgresql.png" alt="PostgreSQL" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">PostgreSQL</h3>
+          <p class="text-sm text-gray-500">Database</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="tailwind.png" alt="Tailwind CSS" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">Tailwind CSS</h3>
+          <p class="text-sm text-gray-500">Framework</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="figma.png" alt="Figma" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">Figma</h3>
+          <p class="text-sm text-gray-500">Design Tool</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="vscode.png" alt="VSCode" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">VSCode</h3>
+          <p class="text-sm text-gray-500">Code Editor</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="canva.png" alt="Canva" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">Canva</h3>
+          <p class="text-sm text-gray-500">Design Tool</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="google.png" alt="G Suite" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">G Suite</h3>
+          <p class="text-sm text-gray-500">Productivity</p>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow-md p-4 w-60 flex flex-col items-center border border-[#d6cfc7] hover:shadow-lg transition">
+          <img src="msapps.png" alt="Microsoft Apps" class="w-12 h-12 mb-2" />
+          <h3 class="text-lg font-semibold text-darkBrown">MS Apps</h3>
+          <p class="text-sm text-gray-500">Productivity</p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects" class="bg-cream text-darkBrown py-20 px-6 mt-25">
+  <div class="max-w-6xl mx-auto text-center">
+    <h1 class="text-4xl md:text-6xl font-marcellus mb-12">projects</h1>
+
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Project Card: Wake Up Call -->
+<div class="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-105 border border-buttonBorder">
+  <img src="wakeup.png" alt="Wake Up Call" class="w-50 h-50 object-cover rounded-lg mb-4">
+  <h2 class="text-xl font-semibold mb-2">Wake Up Call</h2>
+  <p class="text-softBrown mb-4 text-sm">Sleep health apnea prediction using LightGBM and a web app.</p>
+  <a href="https://github.com/yourusername/wakeup-call" class="text-buttonBorder font-medium hover:underline" target="_blank">View Code</a>
+</div>
+
+<!-- Project Card: LSTorM -->
+<div class="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-105 border border-buttonBorder">
+  <img src="lstorm.png" alt="LSTorM" class="w-50 h-50 object-cover rounded-lg mb-4">
+  <h2 class="text-xl font-semibold mb-2">LSTorM</h2>
+  <p class="text-softBrown mb-4 text-sm">Predictive resource allocation for typhoon disaster response using LSTM and a Streamlit web app.</p>
+  <a href="https://github.com/yourusername/lstorm" class="text-buttonBorder font-medium hover:underline" target="_blank">View Code</a>
+</div>
+
+
+<!-- Project Card: DLSU-D Website -->
+<div class="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-105 border border-buttonBorder">
+  <img src="ud.png" alt="DLSU-D Website" class="w-50 h-50 object-cover rounded-lg mb-4">
+  <h2 class="text-xl font-semibold mb-2">DLSU-D Website</h2>
+  <p class="text-softBrown mb-4 text-sm">A site showcasing the different colleges within DLSU-D.</p>
+  <a href="https://www.figma.com/proto/5TczZDnT5sT8NJLIXLnCms/Logo?page-id=0%3A1&node-id=24-2&p=f&viewport=633%2C843%2C0.17&t=RTmthZOUMs1bzgwr-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=24%3A315" class="text-buttonBorder font-medium hover:underline" target="_blank">View Design</a>
+</div>
+
+<!-- Project Card: Stellair -->
+<div class="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-105 border border-buttonBorder">
+  <img src="stellair.png" alt="Stellair" class="w-50 h-50 object-cover rounded-lg mb-4 mx-auto">
+  <h2 class="text-xl font-semibold mb-2">Stellair</h2>
+  <p class="text-softBrown mb-4 text-sm">Airline reservation system prototype designed in Figma.</p>
+  <a href="https://www.figma.com/proto/aN6KmsufokK6nXSyyjHuli/ARS?page-id=0%3A1&node-id=15-779&starting-point-node-id=15%3A779&t=o4kpNczV50ZKmno7-1" class="text-buttonBorder font-medium hover:underline" target="_blank">View Design</a>
+</div>
+
+<!-- Project Card: Messenger Revamp -->
+<div class="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-105 border border-buttonBorder">
+  <img src="messenger.png" alt="Messenger Revamp" class="w-50 h-50 object-cover rounded-lg mb-4 mx-auto">
+  <h2 class="text-xl font-semibold mb-2">Messenger Revamp</h2>
+  <p class="text-softBrown mb-4 text-sm">Messenger prototype tailored for senior citizens, designed for accessibility.</p>
+  <a href="https://www.figma.com/proto/xyg89RgrTOoWqYg7bnhOMX/Figma?page-id=0%3A1&node-id=2-847&p=f&viewport=577%2C248%2C0.15&t=l56W8GdrwPC4JzFl-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=2%3A847" class="text-buttonBorder font-medium hover:underline" target="_blank">View Design</a>
+</div>
+
+<!-- Project Card: Sign-Up Container -->
+<div class="bg-white rounded-2xl shadow-md p-6 transition-transform hover:scale-105 border border-buttonBorder">
+  <img src="signup.png" alt="Sign-Up Container" class="w-50 h-50 object-cover rounded-lg mb-4 mx-auto">
+  <h2 class="text-xl font-semibold mb-2">Sign-Up Container</h2>
+  <p class="text-softBrown mb-4 text-sm">Prototype of a modern sign-up flow created in Figma.</p>
+  <a href="https://www.figma.com/proto/Jr1d0HmIhx7LT0Jqm6Z2oD/Activity-3?page-id=0%3A1&node-id=1-1003&t=PRJss7f3Y3WPvLfE-1" class="text-buttonBorder font-medium hover:underline" target="_blank">View Design</a>
+</div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <footer class="py-20 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-4xl md:text-6xl font-marcellus mb-12">contact</h1>
+      <div id="contact" class="flex flex-wrap justify-center gap-6 text-2xl text-darkBrown">
+        <a href="mailto:olviga.am@gmail.com" class="hover:text-softBrown transition">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://github.com/mckllvg" target="_blank" class="hover:text-softBrown transition">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/mckllvg" target="_blank" class="hover:text-softBrown transition">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
